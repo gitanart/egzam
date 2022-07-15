@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    padding: 30px;
+    text-decoration: solid;
+    top: 0;
+    width: 360px;
+}
+.header-right {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.menu-icon {
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+}
+.navigation {
+    align-items: center;
+    display: none;
+    height: 100%;
+    position: absolute;
+    right: 20px;
+}
+@media only screen and (min-width: 768px) {
+    .navigation {
+        display: inline-block;
+    }
+}
+.navigation .tab {
+    align-items: center;
+    color: black;
+    display: inline-flex;
+    height: 100%;
+    text-decoration: none;
+}
