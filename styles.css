@@ -33,6 +33,7 @@ header {
 @media only screen and (min-width: 768px) {
     .navigation {
         display: inline-block;
+        font-size: 120%;
     }
 }
 .navigation .tab {
@@ -66,8 +67,10 @@ div.orange {
 @media only screen and (min-width: 768px) {
     div.orange {
         border-radius: 20px;
+        font-size: 130%;
         margin: 20px;
         padding-top: 40px;
+
     }
 }
 div.text {
@@ -76,15 +79,35 @@ div.text {
     text-align: left;
     width: 50%;
 }
+@media only screen and (min-width: 768px) {
+    div.text {
+        font-size: 130%;
+    }
+}
 .press {
+    align-items: center;
     display: flex;
-    flex-basis: 100%;
-    justify-content: space-between;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 50px 30px;
 }
 @media only screen and (max-width: 768px) {
     .OpenDoor {
         display: none;
-        
+        }
+}
+.SuperRare {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+@media only screen and (min-width: 768px) {
+    .SuperRare {
+        font-size: 130%;
     }
 }
+a:link, a:visited {
+    color: black;
+
+}
+
