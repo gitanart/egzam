@@ -46,6 +46,10 @@ header {
 main {
     font-size: bolt;
 }
+.marsietis {
+    margin: 50px 0px 50px 0px ;
+    
+}
 button {
     background-color: white;
     border-color: purple;
@@ -58,17 +62,25 @@ button {
 div.position {
     bottom: 5px;
     left: 50px;
-    position: sticky;
+    position: absolute;
 }
-div.orange {
-    background-color: #FF8139;
+@media only screen and (min-width: 768px) {
+    div.position {
+       margin: 150px 500px ;
+        width: 350px;
+        height: 500px;
+    }
+}
+ div.orange {
+    background-color:#FF8139;
     padding: 30px 30px 10px 30px;
 }
 @media only screen and (min-width: 768px) {
     div.orange {
         border-radius: 20px;
         font-size: 130%;
-        margin: 20px;
+        margin: 30px;
+        margin-top: 300px;
         padding-top: 40px;
 
     }
