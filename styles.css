@@ -71,7 +71,7 @@ div.position {
         height: 500px;
     }
 }
- div.orange {
+ div.orange { 
     background-color:#FF8139;
     padding: 30px 30px 10px 30px;
 }
@@ -99,7 +99,7 @@ div.text {
 .press {
     align-items: center;
     display: flex;
-    flex-basis: 50%;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px 30px;
@@ -109,17 +109,43 @@ div.text {
         display: none;
         }
 }
+.img { text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .img {
+        height: 25px;
+        width: 130px;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 30px;
+        
+    }
+}
 .SuperRare {
+    margin-bottom: 30px;
     padding-left: 30px;
     padding-top: 30px;
 }
 @media only screen and (min-width: 768px) {
     .SuperRare {
         font-size: 130%;
+        margin-bottom: 50px;
     }
 }
 a:link, a:visited {
     color: black;
 
 }
+section.moterele {
+    display: flex;
+    margin-top: 30px;
+    position: absolute;
+}
+@media only screen and (min-width: 768px) {
+    .position-moterele {
+        width: 350px;
+        height: 500px; 
+    }
+}
+
 
