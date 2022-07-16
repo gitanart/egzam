@@ -76,3 +76,15 @@ div.text {
     text-align: left;
     width: 50%;
 }
+.press {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+@media only screen and (max-width: 768px) {
+    .OpenDoor {
+        display: none;
+        
+    }
+}
