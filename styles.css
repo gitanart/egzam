@@ -33,7 +33,6 @@ header {
 @media only screen and (min-width: 768px) {
     .navigation {
         display: inline-block;
-        font-size: 120%;
     }
 }
 .navigation .tab {
@@ -45,6 +44,7 @@ header {
 }
 main {
     font-size: bolt;
+    margin-bottom: 50px;
 }
 .marsietis {
     margin: 50px 0px 50px 0px ;
@@ -93,7 +93,7 @@ div.text {
 }
 @media only screen and (min-width: 768px) {
     div.text {
-        font-size: 130%;
+    
     }
 }
 .press {
@@ -128,7 +128,6 @@ div.text {
 }
 @media only screen and (min-width: 768px) {
     .SuperRare {
-        font-size: 130%;
         margin-bottom: 50px;
     }
 }
@@ -136,16 +135,53 @@ a:link, a:visited {
     color: black;
 
 }
-section.moterele {
-    display: flex;
-    margin-top: 30px;
-    position: absolute;
+footer {
+    height: 35px;
+    padding: 20px;
+    top:0;
+    width: 360px;
 }
-@media only screen and (min-width: 768px) {
-    .position-moterele {
-        width: 350px;
-        height: 500px; 
+.icon {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.column {
+    flex: 50%;
+}
+.row {
+    display: flex;
+}
+.august {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    padding-bottom: 20px;
+    right: 30px; 
+}
+@media only screen and (max-width: 768px) {
+    .august {
+        display: none;
     }
 }
+.zalia {
+    padding-left: 30px;
+    padding-top: 60px;
+    text-align: left;
+    width: 50%;
+}
+.moterele {
+    bottom: 5px;
+    display: flex;
+    border-bottom: 2px;
+}
+
 
 
