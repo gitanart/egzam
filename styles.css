@@ -43,21 +43,20 @@ header {
     text-decoration: none;
 }
 main {
-    font-size: bolt;
-    margin-bottom: 50px;
+    font-size: bolt; 
 }
 .marsietis {
     margin: 50px 0px 50px 0px ;
-    
 }
 button {
     background-color: white;
     border-color: purple;
     border-radius: 30px; 
-    border-width: 3px;
+    border-width: 4px;
     margin-left: 30px;
     margin-top: 50px;
     padding: 15px 30px;
+    font-size: 15px;
 }
 div.position {
     bottom: 5px;
@@ -82,7 +81,6 @@ div.position {
         margin: 30px;
         margin-top: 300px;
         padding-top: 40px;
-
     }
 }
 div.text {
@@ -94,7 +92,6 @@ div.text {
 @media only screen and (min-width: 768px) {
     div.text {
         font-size: 130%;
-    
     }
 }
 .press {
@@ -114,12 +111,11 @@ div.text {
 }
 @media only screen and (max-width: 768px) {
     .img {
-        height: 25px;
-        width: 130px;
-        flex-wrap: wrap;
         column-gap: 50px;
+        flex-wrap: wrap;
+        height: 25px;
         row-gap: 30px;
-        
+        width: 130px; 
     }
 }
 .SuperRare {
@@ -129,15 +125,15 @@ div.text {
 }
 @media only screen and (min-width: 768px) {
     .SuperRare {
-        margin-bottom: 50px;
         font-size: 130%;
+        margin-bottom: 50px;
     }
 }
 a:link, a:visited {
     color: black;
 
 }
-footer {
+footer { 
     height: 35px;
     padding: 20px;
     top:0;
@@ -169,8 +165,8 @@ ul {
 .august {
     align-items: center;
     display: flex;
-    position: absolute;
     padding-bottom: 20px;
+    position: absolute;
     right: 30px; 
 }
 @media only screen and (max-width: 768px) {
@@ -190,18 +186,27 @@ ul {
     }
 }
 .moterele {
+    border-bottom: 2px;
     bottom: 5px;
     display: flex;
-    border-bottom: 2px;
 }
 .korteles {
-     overflow-x: scroll;
+    overflow-x: scroll;
+
 }
 .container {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    margin: 10px 30px;   
+    margin: 10px 30px; 
+    width: 1200px;  
+}
+div.bottom {
+    display: flex;
+}
+@media only screen and  (min-width: 768px) {
+    div.bottom {
+        align-items: center;
+    }
 }
 
 
