@@ -182,6 +182,15 @@ ul {
     display: flex;
     border-bottom: 2px;
 }
-
+.korteles {
+     overflow-x: scroll;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 10px 30px;
+    
+}
 
 
