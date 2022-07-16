@@ -93,6 +93,7 @@ div.text {
 }
 @media only screen and (min-width: 768px) {
     div.text {
+        font-size: 130%;
     
     }
 }
@@ -129,6 +130,7 @@ div.text {
 @media only screen and (min-width: 768px) {
     .SuperRare {
         margin-bottom: 50px;
+        font-size: 130%;
     }
 }
 a:link, a:visited {
@@ -140,6 +142,11 @@ footer {
     padding: 20px;
     top:0;
     width: 360px;
+}
+@media only screen and (min-width: 768px) {
+    footer {
+        font-size: 130%;
+    }
 }
 .icon {
     display: flex;
@@ -177,6 +184,11 @@ ul {
     text-align: left;
     width: 50%;
 }
+@media only screen and (min-width: 768px) {
+    .zalia {
+        font-size: 130%;
+    }
+}
 .moterele {
     bottom: 5px;
     display: flex;
@@ -189,8 +201,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 1200px;
-    margin: 10px 30px;
-    
+    margin: 10px 30px;   
 }
 
 
